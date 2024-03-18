@@ -1,0 +1,50 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.format-time{
+  display: block;
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+.format-time{
+  font-size: 6rem;
+}
+
+.display-button{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.start-button{
+  font-size: 2rem;
+  padding: 10px 20px;
+  margin: 5px;
+  border:none;
+  border-radius: 10px;
+}
+
+.stop-button{
+  font-size: 2rem;
+  padding: 10px 20px;
+  margin: 5px;
+  border:none;
+  border-radius: 10px;
+}
+
+.reset-button{
+  font-size: 2rem;
+  padding: 10px 20px;
+  margin: 5px;
+  border:none;
+  border-radius: 10px;
+}
